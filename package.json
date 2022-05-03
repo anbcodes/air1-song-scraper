@@ -1,0 +1,22 @@
+{
+  "name": "air1-dump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^19.0.0",
+    "node-fetch": "^2.6.7",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.6"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14",
+    "@types/node-fetch": "^2.6.1",
+    "typescript": "^4.6.4"
+  }
+}
