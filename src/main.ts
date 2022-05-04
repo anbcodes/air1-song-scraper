@@ -90,7 +90,7 @@ const insertSongs = async (songs: Song[]) => {
     }
 
     // Check if exists
-    const existsRes = db.get(
+    const existsRes = await db.get(
       'SELECT * FROM plays WHERE song = ? AND playedAt > ? AND playedAt < ?;',
       id,
       playedAt - 1000 * 60 * 5,
